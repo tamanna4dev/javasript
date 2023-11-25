@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+
+    // spreed operator
+        let x = [1,2,3]
+let y = [...x,4,5,6]
+console.log(y);
+
+//rest operator
+const mydata=(name,age,...otherInfo)=>{
+    console.log(otherInfo)
+}
+
+mydata("hello","12","devloper","xyz","dvdv")
+
+// rest operator
+function fruits(a,...z)
+{
+    console.log("fruits",z )
+}
+fruits("apple","mango","kiwi","orange","Banana")
+</script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+        let firstName ='hello'
+        let lastName = 'hi'
+        console.log(firstName+ " " + lastName) //hello hi
+
+
+        //Imp
+        // length
+        let name ="hello"
+        console.log(name.length); //5
+
+
+        let FirstName ="hello"
+        console.log(FirstName[1]); //e
+
+            
+         //Imp
+        // Template Literal
+        let Name = 'tamanna'
+        let age = '16'
+        console.log(`${name} ${age}`) // tamanna 16
+
+
+        //Escape Sequence character
+        let fruit ='Banan\'a'
+        console.log(fruit); //Banan'a
+
+
+        let fruits ='Banan\ana'
+        console.log(fruit); //Banan                                                                                                
+                            // ana
+
+        let Fruit = "Appl\"e"
+        console.log(Fruit); //Appl"e
+
+        let Fruit1 = "Appl\\e"
+       console.log(Fruit1);    //Appl\e
+
+
+       
+       let text = "Banana";
+       //slice
+    console.log(text.slice(2,-2));   //na
+     console.log(text.toUpperCase()); //BANANA
+     console.log(text.toLowerCase()); //banana
+    // Substring  
+    console.log(text.substring(2));  //nana
+   //Substr  
+   console.log(text.substr(-2));   //na
+
+
+//   concat 
+    let fname = "Tamanna"
+    let lname = "rani"
+   console.log(fname + lname); //Tamannarani
+   console.log(`${fname} ${lname}`); //Tamanna rani
+   console.log(fname.concat(lname)); //Tamannarani 
+   console.log(fname.concat(" ",lname)); //Tamanna rani
+
+   let trim = "     Tamanna     "
+   console.log(trim.trime());  //Tamanna
+ 
+
+
+   //padStart
+   let padStart = "3"
+   console.log(padStart.padStart(7,"1")); //1111113
+
+   //padEnd
+    let padEnd = "3"
+    console.log(padEnd.padEnd(7,"1")); //3111111
+
+
+//charCodeAt
+    var charCodeAt = "HELLO WORLD";
+ console.log(charCodeAt.charCodeAt(0)); //72
+ 
+//charAt
+ var charAt = "HELLO WORLD";
+ console.log(charAt.charAt(0));  //H
+
+
+
+
+//indexOf
+let index = "Please locate where 'locate' occurs!";
+ console.log (index.indexOf("locate")); // 7
+ 
+ 
+  let indexOf = "Please locate where 'locate' occurs!";
+  console.log (indexOf.indexOf("hello")); // -1
+
+
+//   lastIndexOf
+ let last = "Please locate where 'locate' occurs!";
+ console.log (last.lastIndexOf("locate")); //21
+
+//  search
+ let search = "Please locate where 'locate' occurs!";
+ console.log (search.search("where")); // 14 
+ 
+//  match
+let match = "The rain in SPAIN stays mainly in the plain";
+ console.log (match.match("rain")); 
+//   [
+//   'rain',
+//   index: 4,
+//   input: 'The rain in SPAIN stays mainly in the plain',
+//   groups: undefined
+// ] 
+
+// includes
+let includes = "I love cats. Cats are very easy to love.";
+ console.log (includes.includes("very")); //true
+
+//  startsWith
+ let start  = "I love cats. Cats are very easy to love.";
+ console.log (start .startsWith("I")); //true
+ 
+//  endsWith
+  let end  = "The rain in SPAIN stays mainly in the plain";
+ console.log (end .endsWith("plain"))  //true
+ 
+ 
+
+    </script> 
+ 
+
+</body>
+</html>
